@@ -1,6 +1,4 @@
-<?php
-    include 'conndb.php';
-?>
+<?php include 'conndb.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invoice Data</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 <div class="container">
@@ -35,7 +33,12 @@
                 <td><?=$row['invoice_id']?></td>
                 <td><?=$row['customer_id']?></td>
                 <td><?=$row['cart_id']?></td>
-                <td><button type="button" class="btn btn-warning">Edite</button></td>
+                <td>
+                    <button type="button" class="btn btn-warning">
+                        <a 
+                        class="text-dark text-decoration-none"
+                        href="edite_invoice.php?id=<?=$row['invoice_id']?>">Edite</a>
+                    </button></td>
                 <td>
                     <button type="button" class="btn btn-danger">
                         <a  

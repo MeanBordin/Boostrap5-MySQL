@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Insert Data</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
-        <div class="h4 text-center alert alert-danger mb-4 mt-4" role="alert">
-            แก้ไขข้อมูลตาราง Product
+        <div class="h4 text-center alert alert-warning mb-4 mt-4" role="alert">
+            เพิ่มข้อมูลตาราง Product
         </div>
         <form action="insert_product.php" method="POST">
             <label for="">Product ID</label>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer Data</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
@@ -43,7 +43,13 @@
                     <td><?= $row['c_date']?></td>
                     <td><?= $row['mod_date']?></td>
                     <td><?= $row['postcode']?></td>
-                    <td><button type="button" class="h6 btn btn-warning">Edit</button></td>
+                    <td>
+                        <button type="button" class="h6 btn btn-warning">
+                            <a 
+                            class="text-dark text-decoration-none"
+                            href="edite_cus.php?id=<?=$row['customer_id']?>">Edit</a>
+                        </button>
+                    </td>
                     <td>
                         <button type="button" class="btn btn-danger">
                             <a  

@@ -35,14 +35,14 @@
             while ($row = mysqli_fetch_array($result)) {
             ?>
                 <tr>
-                    <td><?= $row['customer_id']?></td>
-                    <td><?= $row["customer_name"]?></td>
-                    <td><?= $row["email"]?></td>
-                    <td><?= $row['location']?></td>
-                    <td><?= $row['date_of_birth']?></td>
-                    <td><?= $row['c_date']?></td>
-                    <td><?= $row['mod_date']?></td>
-                    <td><?= $row['postcode']?></td>
+                    <td><?=$row['customer_id']?></td>
+                    <td><?=$row["customer_name"]?></td>
+                    <td><?=$row["email"]?></td>
+                    <td><?=$row['location']?></td>
+                    <td><?=$row['date_of_birth']?></td>
+                    <td><?=$row['c_date']?></td>
+                    <td><?=$row['mod_date']?></td>
+                    <td><?=$row['postcode']?></td>
                     <td>
                         <button type="button" class="h6 btn btn-warning">
                             <a 

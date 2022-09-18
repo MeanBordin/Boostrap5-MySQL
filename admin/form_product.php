@@ -15,17 +15,17 @@
         </div>
         <form action="insert_product.php" method="POST">
             <label for="">Product ID</label>
-            <input class="form-control mb-4" type="text" name="product_id" id="" placeholder="รหัสสินค้า"  required>
+            <input class="form-control mb-4" type="text" name="product_id" id="" placeholder="รหัสสินค้า"  >
             <label for="">Product Name</label>
-            <input class="form-control mb-4" type="text" name="product_name" placeholder="ชื่อสินค้า"  required>
+            <input class="form-control mb-4" type="text" name="product_name" placeholder="ชื่อสินค้า"  >
             <label for="">C-Date</label>
-            <input class="form-control mb-4" type="date" name="c_date" required>
+            <input class="form-control mb-4" type="date" name="c_date" >
             <label for="">Mod-Date</label>
-            <input class="form-control mb-4" type="date" name="mod_date" required>
+            <input class="form-control mb-4" type="date" name="mod_date" >
             <label for="">Price</label>
-            <input class="form-control mb-4" type="text" name="price" placeholder="ราคาสินค้า"  required>
+            <input class="form-control mb-4" type="text" name="price" placeholder="ราคาสินค้า"  >
             <label for="">Deleted</label>
-            <input class="form-control mb-4" type="text" name="deleted" placeholder="สถานะสินค้า" required>
+            <input class="form-control mb-4" type="text" name="deleted" placeholder="สถานะสินค้า" >
             <button type="submit" class="btn btn-success mt-4 mb-4">Apply</button>
             <button type="submit" class="btn btn-danger ms-2">
                 <a class="text-white text-decoration-none" href="product.php">Cancel</a>

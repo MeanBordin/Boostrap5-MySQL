@@ -13,7 +13,7 @@
     $sql = "UPDATE Customer SET customer_name='$cus_name', email='$email', location='$locat',
                                 date_of_birth='$dfb', c_date='$c_date', mod_date='$m_date', 
                                 postcode='$p_code' 
-                            WHERE customer_id='$id' ";
+                            WHERE customer_id='$id' "; 
 
     $result = mysqli_query($conn, $sql);
     if($result){

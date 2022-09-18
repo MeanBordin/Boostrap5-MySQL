@@ -24,7 +24,6 @@
                 <th>Mod-date</th>
                 <th>Price</th>
                 <th>Deleted</th>
-                <th>image</th>
                 <th>Edit</th>
                 <th>Delete</th>
             </tr>
@@ -40,9 +39,20 @@
                 <td><?=$row['mod_date']?></td>
                 <td><?=$row['price']?></td>
                 <td><?=$row['deleted']?></td>
-                <td><?=$row['image']?></td>
-                <td><button type="button" class="btn btn-warning">Edite</button></td>
-                <td><button type="button" class="btn btn-danger">Delete</button></td>
+                <td>
+                    <button type="button" class="btn btn-warning">
+                    <a 
+                        class="text-dark text-decoration-none"
+                        href="edite_product.php?id=<?=$row['product_id']?>">Edit</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger">
+                    <a  
+                        class="text-white text-decoration-none" 
+                        href="del_product.php?id=<?=$row['product_id']?>">Delete</a>
+                    </button>
+                </td>
             </tr>
             <?php 
                 }

@@ -20,9 +20,9 @@
         <div class="h4 text-center alert alert-warning mb-4 mt-4" role="alert">
             แก้ไขข้อมูลตาราง Product
         </div>
-        <form action="insert_product.php" method="POST">
+        <form action="update_product.php" method="POST">
             <label for="">Product ID</label>
-            <input class="form-control mb-4" type="text" name="product_id" value="<?=$row['product_id']?>"  >
+            <input class="form-control mb-4" type="text" name="product_id" value="<?=$row['product_id']?>" readonly>
             <label for="">Product Name</label>
             <input class="form-control mb-4" type="text" name="product_name" value="<?=$row['product_name']?>">
             <label for="">C-Date</label>

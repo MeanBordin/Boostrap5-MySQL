@@ -25,6 +25,9 @@
             <label for="promotion_id">ID</label>
             <input class="form-control mb-4" type="text" name="promotion_id" id="promotion_id" value="<?=$row['promotion_id']?>" readonly/>
             
+            <label for="promotion_name">Promotion name</label>
+            <input class="form-control mb-4" type="text" name="promotion_name" id="promotion_name" value="<?=$row['promotion_name']?>" />
+            
             <label for="c_date">C-date</label>
             <input class="form-control mb-4" type="date" name="c_date" id="c_date" value="<?=$row['c_date']?>" />
             

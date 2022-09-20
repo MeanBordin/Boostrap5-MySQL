@@ -2,10 +2,11 @@
     include 'conndb.php';
     
     $promo_id = $_POST['promotion_id'];
+    $promo_name = $_POST['promotion_name'];
     $c_date = $_POST['c_date'];
     $mod_date = $_POST['mod_date'];
     
-    $sql = "UPDATE promotion SET promotion_id='$promo_id', c_date='$c_date', mod_date='$mod_date' 
+    $sql = "UPDATE promotion SET promotion_id='$promo_id', promotion_name='$promo_name' ,c_date='$c_date', mod_date='$mod_date' 
             WHERE promotion_id='$promo_id' ";
 
     $result = mysqli_query($conn, $sql);

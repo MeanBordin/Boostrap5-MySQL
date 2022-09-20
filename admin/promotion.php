@@ -20,6 +20,7 @@
         <table class="table table-striped table-hover">
             <tr>
                 <th>ID</th>
+                <th>Promotion name</th>
                 <th>C-date</th>
                 <th>Mod-date</th>
                 <th>Edit</th>
@@ -32,6 +33,7 @@
             ?>
             <tr>
                 <td><?=$row['promotion_id']?></td>
+                <td><?=$row['promotion_name']?></td>
                 <td><?=$row['c_date']?></td>
                 <td><?=$row['mod_date']?></td>
                 <td>

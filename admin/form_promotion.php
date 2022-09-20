@@ -17,6 +17,9 @@
             <label for="">ID </label>
             <input class="form-control mb-4" type="text" name="promotion_id" id="promotion_id" value="" placeholder="รหัสโปรโมชั่น" required/>
             
+            <label for="">Promotion name</label>
+            <input class="form-control mb-4" type="text" name="promotion_name" id="promotion_name" value="" placeholder="ชื่อโปรโมชั่น" required/>
+            
             <label for="">C-date</label>
             <input class="form-control mb-4" type="date" name="c_date" id="c_date" value=""  required/>
             

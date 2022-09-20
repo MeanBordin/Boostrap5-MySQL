@@ -8,7 +8,8 @@
     <title>Customer Data</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
-<body>
+<body> 
+    <?php include 'navbar.php'?>
     <div class="container">
         <div class="h4 text-center alert alert-info mb-4 mt-4" role="alert">
             แสดงข้อมูลสมาชิก

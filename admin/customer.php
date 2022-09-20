@@ -24,7 +24,7 @@
                 <th>Location</th>
                 <th>Dath of Birth</th>
                 <th>C-Date</th>
-                <th>Mode-Date</th>
+                <th>Mod-Date</th>
                 <th>Postcode</th>
                 <th>Edit</th>
                 <th>Edit</th>

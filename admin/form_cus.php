@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Insert Data</title>
+    <title>เพิ่มข้อมูลลูกค้า</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
         <div class="h4 text-center alert alert-warning mb-4 mt-4" role="alert">
-            เพิ่มข้อมูลตาราง Customer
+            เพิ่มข้อมูลลูกค้า และ สมาชิก
         </div>
         <form action="insert_cus.php" method="POST">
             <label for="">Customer ID</label>

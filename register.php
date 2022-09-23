@@ -11,21 +11,21 @@
 </head>
 <body>
     <?php @include 'navbar.php'; ?>
-    <div class="container mt-4">
+    <div class="container mt-5">
         <form action="" method="post">
-            <h1 class="text-center">Register</h1>
+            <h1 class="text-center">สมัครสมาชิก</h1>
             <div class="text-center">
                 <img class="img-responsive center-block mb-5" src="./image/registration-2.png" width="300" height="250" alt="register">
             </div>
-            Username
+            &nbsp;ชื่อผู้ใช้
             <input class="form-control" type="text" required><br>
-            Email
+            &nbsp;อีเมล
             <input class="form-control" type="email" required><br>
-            Password
+            &nbsp;รหัสผ่าน
             <input class="form-control" type="password" required><br>
-            <input class="btn btn-primary" type="button" value="register">
-            <input class="btn btn-danger" type="button" value="cancle">
-        </form>
+            <input class="btn btn-warning me-2" type="button" value="สมัครสมาชิก">
+            <input class="btn btn-danger" type="button" value="ยกเลิก">
+        </form> 
     </div>
-</body>
+</body> 
 </html>

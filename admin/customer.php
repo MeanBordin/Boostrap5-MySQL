@@ -22,7 +22,7 @@
             <a href="form_cus.php" class="h6 text-white text-decoration-none">Add +</a>
         </button>
         <table class="table table-striped table-hover">
-            <tbody class="table-striped ">
+            <tbody class="table-striped">
                 <tr>
                     <th>ID</th>
                     <th>Username</th>

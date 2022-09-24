@@ -22,7 +22,8 @@
             <label for="">Email</label>
             <input class="form-control mb-4" type="email" name="email" placeholder="อีเมล"  required>
             <label for="">Location</label>
-            <input class="form-control mb-4" type="text" name="location" placeholder="ที่อยู่"  required>
+            <!-- <input class="form-control mb-4" type="text" name="location" placeholder="ที่อยู่"  required> -->
+            <?php include 'provinces.php';?>
             <label for="">Date of Birth</label>
             <input class="form-control mb-4" type="date" name="date_of_birth" placeholder="ว/ด/ป"  required>
             <label for="">C-Date</label>

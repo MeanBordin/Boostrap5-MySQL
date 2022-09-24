@@ -22,14 +22,16 @@
             <a href="form_promotion.php" class="h6 text-white text-decoration-none">Add +</a>
         </button>
         <table class="table table-striped table-hover">
-            <tr>
-                <th>ID</th>
-                <th>Promotion name</th>
-                <th>C-date</th>
-                <th>Mod-date</th>
-                <th>Edit</th>
-                <th>Delete</th>
-            </tr>
+            <tbody class="table-striped">
+                <tr>
+                    <th>ID</th>
+                    <th>Promotion name</th>
+                    <th>C-date</th>
+                    <th>Mod-date</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </tbody>
             <?php
                 $sql = "SELECT * FROM promotion";
                 $result = mysqli_query($conn, $sql);

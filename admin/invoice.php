@@ -23,13 +23,15 @@
             <a href="form_invoice.php" class="h6 text-white text-decoration-none">Add +</a>
         </button>
         <table class="table table-striped table-hover">
-            <tr>
-                <th>ID</th>
-                <th>CustomerId</th>
-                <th>CartId</th>
-                <th>Edit</th>
-                <th>Delete</th>
-            </tr>
+            <tbody class="table-stpried">
+                <tr>
+                    <th>ID</th>
+                    <th>CustomerId</th>
+                    <th>CartId</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </tbody>
             <?php
                 $sql = "SELECT * FROM Invoice";
                 $result = mysqli_query($conn, $sql);

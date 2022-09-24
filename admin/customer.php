@@ -22,18 +22,20 @@
             <a href="form_cus.php" class="h6 text-white text-decoration-none">Add +</a>
         </button>
         <table class="table table-striped table-hover">
-            <tr>
-                <th>ID</th>
-                <th>Username</th>
-                <th>Email</th>
-                <th>Location</th>
-                <th>Dath of Birth</th>
-                <th>C-Date</th>
-                <th>Mod-Date</th>
-                <th>Postcode</th>
-                <th>Edit</th>
-                <th>delete</th>
-            </tr>
+            <tbody class="table-striped ">
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                    <th>Dath of Birth</th>
+                    <th>C-Date</th>
+                    <th>Mod-Date</th>
+                    <th>Postcode</th>
+                    <th>Edit</th>
+                    <th>delete</th>
+                </tr>
+            </tbody>
             <?php
             $sql = "SELECT * FROM Customer";
             $result = mysqli_query($conn, $sql);

@@ -25,8 +25,10 @@
             <input class="form-control mb-4" type="date" name="mod_date" required>
             <label for="">Price</label>
             <input class="form-control mb-4" type="text" name="price" placeholder="ราคาสินค้า"  required>
+            <label for="">Image</label>
+            <input class="form-control mb-4" type="file" name="product_image" required>
             <label for="">Deleted</label>
-            <input class="form-control mb-4" type="text" name="deleted" placeholder="สถานะสินค้า" required>
+            <input class="form-control mb-2" type="text" name="deleted" placeholder="สถานะสินค้า" required>
             <button type="submit" class="btn btn-success mt-4 mb-4">Apply</button>
             <button type="submit" class="btn btn-danger ms-2">
                 <a class="text-white text-decoration-none" href="product.php">Cancel</a>

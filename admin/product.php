@@ -22,16 +22,19 @@
             <a href="form_product.php" class="h6 text-white text-decoration-none">Add +</a>
         </button>
         <table class="table table-striped table-hover">
-            <tr>
-                <th>ID</th>
-                <th>Product name</th>
-                <th>C-date</th>
-                <th>Mod-date</th>
-                <th>Price</th>
-                <th>Deleted</th>
-                <th>Edit</th>
-                <th>Delete</th>
-            </tr>
+            <tbody class="table-striped">
+                <tr>
+                    <th>ID</th>
+                    <th>image</th>
+                    <th>Product name</th>
+                    <th>C-date</th>
+                    <th>Mod-date</th>
+                    <th>Price</th>
+                    <th>Deleted</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </tbody>
             <?php
                 $sql = "SELECT * FROM Product";
                 $result = mysqli_query($conn, $sql);
@@ -39,6 +42,7 @@
             ?>
             <tr>
                 <td><?=$row['product_id']?></td>
+                <td><?php echo "Test...";?></td>
                 <td><?=$row['product_name']?></td>
                 <td><?=$row['c_date']?></td>
                 <td><?=$row['mod_date']?></td>

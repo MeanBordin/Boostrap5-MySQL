@@ -7,6 +7,7 @@
     <title>หน้าหลัก</title>
 </head>
 <body>
+    <?php @include 'navbar.php';?>
     <h1>Product</h1>    
 </body>
 </html>

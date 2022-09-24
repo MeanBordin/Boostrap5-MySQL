@@ -21,7 +21,7 @@
         <div class="h4 text-center alert alert-warning mb-4 mt-4" role="alert">
             แก้ไขข้อมูลตาราง Product
         </div>
-        <form action="update_product.php" method="POST">
+        <form action="update_product.php" method="POST" enctype="multipart/form-data">
             <label for="">Product ID</label>
             <input class="form-control mb-4" type="text" name="product_id" value="<?=$row['product_id']?>" readonly>
             <label for="">Product Name</label>

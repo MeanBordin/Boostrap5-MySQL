@@ -24,7 +24,7 @@
         <table class="table table-striped table-hover">
             <tbody class="table-striped">
                 <tr>
-                    <th>ID</th>
+                    <th>#</th>
                     <th>Promotion name</th>
                     <th>C-date</th>
                     <th>Mod-date</th>

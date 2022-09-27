@@ -25,7 +25,7 @@
         <table class="table table-striped table-hover">
             <tbody class="table-stpried">
                 <tr>
-                    <th>ID</th>
+                    <th>#</th>
                     <th>CustomerId</th>
                     <th>CartId</th>
                     <th>Edit</th>

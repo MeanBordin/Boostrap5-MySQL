@@ -32,10 +32,12 @@
             <input class="form-control mb-4" type="date" name="mod_date"  required>
             <label for="">Postcode</label>
             <input class="form-control" type="text" name="postcode" placeholder="รหัสไปรษณีย์" required>
-            <button type="submit" class="btn btn-success mt-4 mb-4">Apply</button>
-            <button type="submit" class="btn btn-danger ms-2">
-                <a class="text-white text-decoration-none" href="customer.php">Cancel</a>
-            </button>
+            <div class="float-end">
+                <button type="submit" class="btn btn-success mt-4 mb-4">Apply</button>
+                <button type="submit" class="btn btn-danger ms-2">
+                    <a class="text-white text-decoration-none" href="customer.php">Cancel</a>
+                </button>
+            </div>
         </form>
     </div>
 </body>

@@ -26,10 +26,12 @@
             <label for="">Mod-date</label>
             <input class="form-control mb-4" type="date" name="mod_date" id="mod_date" value=""  required/>
             
-            <input class="btn btn-success ms-2" type="submit" value="Apply"> 
-            <button type="submit" class="btn btn-danger ms-2">
-                <a class="text-white text-decoration-none" href="promotion.php">Cancel</a>
-            </button>
+            <div class="float-end">
+                <input class="btn btn-success ms-2" type="submit" value="Apply"> 
+                <button type="submit" class="btn btn-danger ms-2">
+                    <a class="text-white text-decoration-none" href="promotion.php">Cancel</a>
+                </button>
+            </div>
         </form>
     </div>
 </body>

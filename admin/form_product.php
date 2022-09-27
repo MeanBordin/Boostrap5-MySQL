@@ -29,10 +29,12 @@
             <input class="form-control mb-4" type="file" name="product_image" required>
             <label for="">Deleted</label>
             <input class="form-control mb-2" type="text" name="deleted" placeholder="สถานะสินค้า" required>
-            <button type="submit" class="btn btn-success mt-4 mb-4">Apply</button>
-            <button type="submit" class="btn btn-danger ms-2">
-                <a class="text-white text-decoration-none" href="product.php">Cancel</a>
-            </button>
+            <div class="float-end">
+                <button type="submit" class="btn btn-success mt-4 mb-4">Apply</button>
+                <button type="submit" class="btn btn-danger ms-2">
+                    <a class="text-white text-decoration-none" href="product.php">Cancel</a>
+                </button>
+            </div>
         </form>
     </div>
 </body>

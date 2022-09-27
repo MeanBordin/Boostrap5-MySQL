@@ -19,7 +19,7 @@
         <div class="h4 text-center alert alert-info mb-4 mt-4" role="alert">
             แสดงข้อมูลรายการสินค้า
         </div>
-        <button type="button" class="btn btn-success mb-2">
+        <button type="button" class="btn btn-success float-end mb-3 mt-5">
             <a href="form_invoice.php" class="h6 text-white text-decoration-none">Add +</a>
         </button>
         <table class="table table-striped table-hover">

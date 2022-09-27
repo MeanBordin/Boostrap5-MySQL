@@ -23,10 +23,12 @@
             <label for="cart_id">Cart ID</label>
             <input class="form-control mb-4" type="text" name="cart_id" id="cart_id" value="" placeholder="ตะกร้าสินค้า" required/>
             
-            <button type="submit" class="btn btn-success">Apply</button>
-            <button type="submit" class="btn btn-danger ms-2">
-                <a class="text-white text-decoration-none" href="invoice.php">Cancel</a>
-            </button>
+            <div class="float-end">
+                <button type="submit" class="btn btn-success">Apply</button>
+                <button type="submit" class="btn btn-danger ms-2">
+                    <a class="text-white text-decoration-none" href="invoice.php">Cancel</a>
+                </button>
+            </div>
         </form>
     </div>
 </body>

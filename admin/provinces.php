@@ -10,7 +10,7 @@
 </head>
 
 <body>
-            <select name="location" id="" class="form-control mb-4" required >
+            <select name="location" class="form-select mb-4" required >
                 <option value="" selected disabled>กรุณาเลือกจังหวัด</option>
                 <option value="กระบี่">กระบี่</option>
                 <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>

@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
-    <link rel="stylesheet" href="./style/style.css">
-    <?php @include './style/css.php';?>
+    <link rel="stylesheet" href="../style/style.css">
+    <?php @include '../style/css.php';?>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="product.php">
-                <img src="./image/shops.png" width="50" height="40" alt="">
+                <img src="../image/shops.png" width="50" height="40" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
                     <a class="nav-link" href="#">ติดต่อเรา</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./admin/customer.php">จัดการฐานข้อมูล</a>
+                    <a class="nav-link" href="../admin/customer.php">จัดการฐานข้อมูล</a>
                 </li>
             </ul>
             <form class="d-flex mb-0">

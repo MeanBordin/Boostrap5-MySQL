@@ -19,8 +19,10 @@
             &nbsp;รหัสผ่าน
             <input class="form-control" name="password" type="password"  placeholder="password" required><br>
             <!-- buttom -->
-            <input class="btn btn-primary me-2" name="submit" type="submit" value="เข้าสู่ระบบ">
-            <input class="btn btn-danger" type="reset" value="ยกเลิก">
+            <div class="float-end">
+                <input class="btn btn-primary me-2" name="submit" type="submit" value="เข้าสู่ระบบ">
+                <input class="btn btn-danger" type="reset" value="ยกเลิก">
+            </div>
         </form> 
     </div>
 </body>
